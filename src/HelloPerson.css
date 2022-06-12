@@ -1,0 +1,59 @@
+div{
+    background-color:aliceblue;
+    border-radius: 10px;
+    
+    width: 350px;
+}
+.container{
+    background-color:aliceblue;
+    border-radius: 10px;
+    height: 150px;
+    width: 350px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction:column;
+    
+   
+    
+}
+
+.perfil{
+    
+    
+    display:flex;
+    align-items:flex-start;
+    flex-direction:column;
+    font-weight:bold;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    
+}
+
+.img{
+    border-radius: 50%;
+    transition: 0.8s all;
+    border-color: green;
+    border-style: groove;
+  
+}
+
+.img:hover{
+    transform: scale(2);
+    border-radius: 0;
+}
+.botaoedit {
+    background-color: aliceblu;
+    display:flex;
+    align-items:flex-end;
+    flex-direction:column;
+    
+  }
+  button{
+    color: white;
+    background-color: black;
+    font-size: calc(8px + 2vmin);
+    border-radius: 10px; 
+    font-family: "Helvetica Neue";
+  }
+  
