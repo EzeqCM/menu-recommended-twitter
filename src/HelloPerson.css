@@ -43,7 +43,7 @@ div{
     border-radius: 0;
 }
 .botaoedit {
-    background-color: aliceblu;
+    background-color: aliceblue;
     display:flex;
     align-items:flex-end;
     flex-direction:column;
