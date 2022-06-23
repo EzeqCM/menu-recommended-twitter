@@ -1,0 +1,12 @@
+.BotaoEdit{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    font-weight: bold;
+
+}
+
+.EspacoBotao{
+    padding-top: 17px;
+    padding-right: 1000px;
+}
