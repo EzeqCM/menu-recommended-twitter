@@ -1,9 +1,11 @@
 .geralperfil{
+ 
     display: flex;
     border: 20px;
 }
 
 .infodoperfil{
+    
     display: flex;
     padding-left: 15px;
     flex-direction: column;

@@ -46,3 +46,11 @@ button {
   display:flex;
   justify-content:space-between;
 }
+
+.Fundo{
+  border-radius: 30px;
+  padding: 15px;
+  height: 350px;
+  width: 345px;
+  background-color: aliceblue;
+}
