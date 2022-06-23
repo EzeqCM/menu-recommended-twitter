@@ -1,6 +1,8 @@
 import './App.css'
 import HelloWorld from './HelloWorld'
-import HelloPerson from './HelloPerson';
+import HelloPerson from './HelloPerson'
+import Botao from './Botao'
+import VerMais from './VerMais';
 
 function App() {
   
@@ -29,16 +31,19 @@ function App() {
       
     <HelloWorld/>
     
-    { pessoas.map ( (perfil) => {
-          return <HelloPerson
-          img={perfil.foto}
-          titulo={perfil.nome}
-          url_perfil={perfil.user}
-        />
-
+    { pessoas.map ( (perfil, key) => {
+          return (
+            <div className='Divisao'><HelloPerson
+            key={key}
+            img={perfil.foto}
+            titulo={perfil.nome}
+            url_perfil={perfil.user}
+          />
+          <Botao/>  
+          </div>
+          )
     })}
-
-     
+       <VerMais/>
     </div>
   )
 }
