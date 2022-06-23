@@ -1,28 +1,21 @@
 import './HelloPerson.css'
-import Button from './Button';
 
-function HelloPerson({nome, user, foto }){
+function HelloPerson({img, titulo, url_perfil}){
     return(
         
-        <div className="container">
-            
-            <p className="perfil">
-            
-            <img
-           className='img' 
-           src={foto} 
-           alt={nome}
-           width ="40px"
-           height="40px"
-        />
-             {nome}
-             <p>
-             {user} 
-             </p>    
-             <Button />
-             </p>
-             
-             
+        <div className='geralperfil'>
+
+            <div className='imgperfil'>
+
+                <img src= {img} alt='' />
+
+            </div>
+            <div className='infodoperfil'>
+
+                <a className='nome'>{titulo}</a>
+                <a className='arroba_user'>{url_perfil}</a>
+
+            </div>
         </div>
     );
 }

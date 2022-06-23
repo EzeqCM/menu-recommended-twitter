@@ -1,12 +1,9 @@
-import { useState } from 'react'
 import './App.css'
 import HelloWorld from './HelloWorld'
 import HelloPerson from './HelloPerson';
 
 function App() {
-
-  const [nome, setNome] = useState("");
-
+  
   const pessoas = [
     {
       foto: "https://pbs.twimg.com/profile_images/1082744382585856001/rH_k3PtQ_400x400.jpg",
@@ -30,18 +27,18 @@ function App() {
   return (
     <div>
       
-      <HelloWorld />
-      { pessoas.map( (pessoa, key) => {
-      return <HelloPerson 
-      key={key}
-      nome={pessoa.nome} 
-      user={pessoa.user} 
-      foto={pessoa.foto}
-      />
-      
-      } ) }
+    <HelloWorld/>
+    
+    { pessoas.map ( (perfil) => {
+          return <HelloPerson
+          img={perfil.foto}
+          titulo={perfil.nome}
+          url_perfil={perfil.user}
+        />
 
-<a href="#" onclick="myFunction();">Mostrar mais</a>
+    })}
+
+     
     </div>
   )
 }

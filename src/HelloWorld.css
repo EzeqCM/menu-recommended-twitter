@@ -1,10 +1,5 @@
 .titulo{    
         background-color:aliceblue;
-        border-radius: 10px;
         height: 10px;
         width: 350px;
-        display:flex;
-        justify-content:flex-start;
-        align-items:flex-start;
-        flex-direction:column;
 }

@@ -1,59 +1,27 @@
-div{
-    background-color:aliceblue;
-    border-radius: 10px;
-    
-    width: 350px;
-}
-.container{
-    background-color:aliceblue;
-    border-radius: 10px;
-    height: 150px;
-    width: 350px;
-    display:flex;
-    justify-content:flex-start;
-    align-items:flex-start;
-    flex-direction:column;
-    
-   
-    
+.geralperfil{
+    display: flex;
+    border: 20px;
 }
 
-.perfil{
-    
-    
-    display:flex;
-    align-items:flex-start;
-    flex-direction:column;
-    font-weight:bold;
-    font-family: "Helvetica Neue";
-    font-size: 20px;
-    
+.infodoperfil{
+    display: flex;
+    padding-left: 4px;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.img{
+.imgperfil img{
     border-radius: 50%;
-    transition: 0.8s all;
-    border-color: green;
-    border-style: groove;
-  
+    width: 64px;
 }
 
-.img:hover{
-    transform: scale(2);
-    border-radius: 0;
+.nome{
+
+    font-family:'Segoe UI', 'Roboto', sans-serif;
+    font-weight: bold;
 }
-.botaoedit {
-    background-color: aliceblue;
-    display:flex;
-    align-items:flex-end;
-    flex-direction:column;
-    
-  }
-  button{
-    color: white;
-    background-color: black;
-    font-size: calc(8px + 2vmin);
-    border-radius: 10px; 
-    font-family: "Helvetica Neue";
-  }
-  
+
+.arroba_user{
+    color: #999999;
+}
+
